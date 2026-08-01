@@ -1,0 +1,28 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* import tokens */
+@import "./tokens.css";
+
+html, body, #__next {
+  height: 100%;
+  background: var(--matte-black);
+  color: var(--pure-white);
+  font-family: var(--ui-font);
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+/* focus visibility */
+:focus {
+  outline: 2px solid rgba(230,0,35,0.9);
+  outline-offset: 3px;
+}
+
+/* small helpers */
+.backdrop-glass {
+  background: var(--glass-bg);
+  border: 1px solid var(--glass-border);
+  backdrop-filter: blur(8px);
+}
