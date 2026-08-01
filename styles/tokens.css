@@ -1,0 +1,12 @@
+:root{
+  --matte-black: #000000;
+  --premium-silver: #C0C0C0;
+  --pure-white: #FFFFFF;
+  --luxury-red: #E60023;
+  --glass-bg: rgba(255,255,255,0.03);
+  --glass-border: rgba(255,255,255,0.06);
+  --soft-glow: 0 12px 48px rgba(230,0,35,0.14);
+  --radius-lg: 14px;
+  --headline-font: "Canela", "Playfair Display", serif;
+  --ui-font: "Inter", system-ui, sans-serif;
+}
